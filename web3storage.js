@@ -21,6 +21,7 @@ async function storeFiles(files) {
 }
 
 async function storeWithProgress(files) {
+	console.log(files)
 	const onRootCidReady = (cid) => {
 		console.log('uploading files with cid:', cid)
 	}

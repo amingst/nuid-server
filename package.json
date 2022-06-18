@@ -9,7 +9,9 @@
 	},
 	"dependencies": {
 		"@nuid/sdk-nodejs": "^0.2.1",
+		"@nuid/zk": "^0.1.2",
 		"axios": "^0.27.2",
+		"cors": "^2.8.5",
 		"express": "^4.18.1",
 		"node-fetch": "^3.2.6",
 		"web3.storage": "^4.2.0"
