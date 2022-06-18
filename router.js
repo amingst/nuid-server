@@ -28,10 +28,19 @@ router.post('/register', async (req, res) => {
 		}
 
 		res.send(resp)
+		return
 	} catch (res) {
 		console.log(res)
-		console.log('catch')
+		return
 	}
 })
+
+router.post('/challenge', async (req, res) => {})
+
+router.post('/login', async (req, res) => {})
+
+router.post('/forgot', async (req, res) => {})
+
+router.post('/change', async (req, res) => {})
 
 module.exports = router
